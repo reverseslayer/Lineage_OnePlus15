@@ -23,11 +23,11 @@
   <!-- Device Specifics -->
   <remote  name="localgit" fetch="https://github.com/reverseslayer/" />
 
-  <project name="android_device_oneplus_infinity" path="device/oneplus/infinity" remote="github" revision="main" />
-  <project name="android_device_oneplus_sm8850_common" path="device/oneplus/sm8850-common" remote="github" revision="main" />
+  <project name="android_device_oneplus_infinity" path="device/oneplus/infinity" remote="localgit" revision="main" />
+  <project name="android_device_oneplus_sm8850_common" path="device/oneplus/sm8850-common" remote="localgit" revision="main" />
 
-  <project name="android_kernel_oneplus_sm8850" path="kernel/oneplus/sm8850" remote="github" revision="main" />
-  <project name="android_kernel_modules_and_devicetree_oneplus_sm8850" path="kernel/oneplus/sm8850-common" remote="github" revision="main" />
+  <project name="android_kernel_oneplus_sm8850" path="kernel/oneplus/sm8850" remote="localgit" revision="main" />
+  <project name="android_kernel_modules_and_devicetree_oneplus_sm8850" path="kernel/oneplus/sm8850-common" remote="localgit" revision="main" />
 
   <!-- AOSP Projects -->
   <project path="build/make" name="LineageOS/android_build" groups="pdk,sysui-studio" >
