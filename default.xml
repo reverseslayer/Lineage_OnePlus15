@@ -29,6 +29,8 @@
   <project name="android_kernel_oneplus_sm8850" path="kernel/oneplus/sm8850" remote="localgit" revision="main" />
   <project name="android_kernel_modules_and_devicetree_oneplus_sm8850" path="kernel/oneplus/sm8850-common" remote="localgit" revision="main" />
 
+  <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" />
+
   <!-- AOSP Projects -->
   <project path="build/make" name="LineageOS/android_build" groups="pdk,sysui-studio" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
