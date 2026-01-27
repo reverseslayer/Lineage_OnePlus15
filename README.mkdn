@@ -36,13 +36,12 @@ You can view the current build statuses at [LineageOS Buildkite](https://buildki
 Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
 
 
-
 Build CMDS
 -----------
 source build/envsetup.sh
 
 lunch lineage_infinity-bp2a-userdebug
 
-sed -i '/"libstdc++"/d' vendor/oneplus/infinity/Android.bp
+mka infinity
 
 mka infinity
