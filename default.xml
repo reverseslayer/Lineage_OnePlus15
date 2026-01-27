@@ -26,8 +26,8 @@
   <project name="android_device_oneplus_infinity" path="device/oneplus/infinity" remote="localgit" revision="main" />
   <project name="android_device_oneplus_sm8850_common" path="device/oneplus/sm8850-common" remote="localgit" revision="main" />
 
-  <project name="android_kernel_common_oneplus_sm8850" path="kernel/oneplus/sm8850" remote="localgit" revision="main" />
-  <project name="android_kernel_modules_and_devicetree_oneplus_sm8850" path="kernel/oneplus/sm8850-common" remote="localgit" revision="main" />
+  <project path="" name="android_kernel_modules_and_devicetree_oneplus_sm8850" remote="localgit" revision="main" />
+  <project path="kernel_platform/common/" name="android_kernel_common_oneplus_sm8850" remote="localgit" revision="main" />
   <projcet name="qcom-caf_sm8850" path="hardware/qcom-caf/sm8850" remote="localgit" revsion="main" />
 
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" />
