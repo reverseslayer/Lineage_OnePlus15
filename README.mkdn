@@ -43,5 +43,3 @@ source build/envsetup.sh
 lunch lineage_infinity-bp2a-userdebug
 
 mka infinity
-
-mka infinity
