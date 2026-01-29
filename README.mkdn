@@ -36,10 +36,22 @@ You can view the current build statuses at [LineageOS Buildkite](https://buildki
 Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
 
 
+Things to note
+--------------
+Currently this is WIP.  
+There is a build setup that must take place before you can build.  
+```
+cd {build_root}
+mkdir ./kernel/oplus/
+cd ./kernel/oplus/
+ln -s ../../kernel_platform/common/ ./sm8850
+ln -s ../../vendor/qcom/opensource/ ./sm8850-devicetrees
+```
+
 Build CMDS
 -----------
+```
 source build/envsetup.sh
-
 lunch lineage_infinity-bp2a-userdebug
-
-mka infinity
+mka
+```
