@@ -29,7 +29,7 @@
   <project path="." name="android_kernel_modules_and_devicetree_oneplus_sm8850" remote="localgit" revision="main" />
   <project path="kernel_platform/common/" name="android_kernel_common_oneplus_sm8850" remote="localgit" revision="main" />
   
-  <project path="hardware/qcom-caf/sm8850" name="qcom-caf_sm8850" remote="localgit" revision="main" />
+  <project path="hardware/qcom-caf" name="qcom-caf" remote="localgit" revision="main" />
   <project path="hardware/oplus" name="LineageOS/android_hardware_oplus"  remote="github" />
 
   <!-- AOSP Projects -->
