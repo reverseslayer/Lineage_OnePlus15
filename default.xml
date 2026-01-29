@@ -25,6 +25,7 @@
 
   <project path="device/oplus/infinity" name="android_device_oneplus_infinity" remote="localgit" revision="main" />
   <project path="device/oplus/sm8850-common" name="android_device_oneplus_sm8850_common" remote="localgit" revision="main" />
+  <project path="device/qcom/sepolicy_vndr/sm8850" name="android_sepolicy-vndr_sm8850" remote="localgit" revision="main" />
   
   <project path="." name="android_kernel_modules_and_devicetree_oneplus_sm8850" remote="localgit" revision="main" />
   <project path="kernel_platform/common/" name="android_kernel_common_oneplus_sm8850" remote="localgit" revision="main" />
