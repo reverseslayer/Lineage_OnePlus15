@@ -41,11 +41,21 @@ Things to note
 Currently this is WIP.  
 There is a build setup that must take place before you can build.  
 ```
+# CD to build root
 cd {build_root}
+
+# Create SymLinks
 mkdir ./kernel/oplus/
 cd ./kernel/oplus/
 ln -s ../../kernel_platform/common/ ./sm8850
 ln -s ../../vendor/qcom/opensource/ ./sm8850-devicetrees
+
+# Create dummy dlkm folder
+cd ../../device/
+mkdir -p common/dlkm/
+cd common/dlkm/
+touch Build_external_kernelmodule.mk
+
 ```
 
 This took me too long to figure out but you need to disable the USE_OLD_RMNET_DATA feature in the vendor tree
