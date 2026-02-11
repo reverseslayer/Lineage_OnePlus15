@@ -48,6 +48,9 @@ ln -s ../../kernel_platform/common/ ./sm8850
 ln -s ../../vendor/qcom/opensource/ ./sm8850-devicetrees
 ```
 
+This took me too long to figure out but you need to disable the USE_OLD_RMNET_DATA feature in the vendor tree
+./vendor/qcom/opensource/dataservices/rmnetctl/Android.bp:line 13 -> set -DUSE_OLD_RMNET_DATA to false
+
 Build CMDS
 -----------
 ```
